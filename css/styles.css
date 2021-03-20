@@ -88,6 +88,8 @@ section {
   
   .navbar_TOP a.icon {
     display: none;
+    font-size: 30px;
+    text-decoration:overline;
   }
   
   @media screen and (max-width: 600px) {
@@ -104,6 +106,7 @@ section {
       position: absolute;
       right: 0;
       top: 0;
+      font-size: 30px;
     }
     .navbar_TOP.responsive li {
       float: none;
