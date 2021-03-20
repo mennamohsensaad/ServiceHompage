@@ -67,29 +67,31 @@ section {
 /* Navigation Styles*/
 .navbar_TOP {
     overflow:hidden;
-    background-color :#333;
+    background-color: aqua;
   }
   
   .navbar_TOP li {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color:blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: bold;
   }
   
   .navbar_TOP li:hover {
     background-color: #ddd;
-    color: rgb(158, 137, 137);
+    color: black;
   }
   
   
   .navbar_TOP a.icon {
     display: none;
     font-size: 30px;
-    text-decoration:overline;
+    text-decoration: none;
+    font-weight:bold;
   }
   
   @media screen and (max-width: 600px) {
